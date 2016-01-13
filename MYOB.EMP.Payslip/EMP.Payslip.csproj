@@ -7,8 +7,8 @@
     <ProjectGuid>{D48B41B1-326F-4E9D-A3D2-05825EF9D7A1}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MYOB.EMP.Payslip</RootNamespace>
-    <AssemblyName>MYOB.EMP.Payslip</AssemblyName>
+    <RootNamespace>EMP.Payslip</RootNamespace>
+    <AssemblyName>EMP.Payslip</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

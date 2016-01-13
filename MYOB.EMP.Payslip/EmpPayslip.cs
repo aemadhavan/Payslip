@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MYOB.EMP.Payslip
+namespace EMP.Payslip
 {
     public class EmpPayslip : EmpPaymentData, ICalculateIncomeTax, IDisplayPayslip
     {

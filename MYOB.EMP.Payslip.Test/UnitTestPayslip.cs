@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MYOB.EMP.Payslip;
+using EMP.Payslip;
 
-namespace MYOB.EMP.Payslip.Tests
+namespace EMP.Payslip.Tests
 {
    
     [TestClass()]

@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace MYOB.EMP.Payslip
+namespace EMP.Payslip
 {
     public class GetCSVFile
     {

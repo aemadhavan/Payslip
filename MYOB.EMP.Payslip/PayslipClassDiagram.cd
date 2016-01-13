@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="MYOB.EMP.Payslip.Employee">
+  <Class Name="EMP.Payslip.Employee">
     <Position X="0.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAg=</HashCode>
       <FileName>Employee.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MYOB.EMP.Payslip.EmpPaymentData">
+  <Class Name="EMP.Payslip.EmpPaymentData">
     <Position X="2.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAA=</HashCode>
       <FileName>EmpPaymentData.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MYOB.EMP.Payslip.EmpPayslip">
+  <Class Name="EMP.Payslip.EmpPayslip">
     <Position X="5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAkAAAAAIAAAQAAAAAAAAAAAAAgAAEAAAAAAAAAA=</HashCode>
@@ -22,28 +22,28 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="MYOB.EMP.Payslip.GetCSVFile">
+  <Class Name="EMP.Payslip.GetCSVFile">
     <Position X="7" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAAAAIACCQQAAAAAAAgAAABAAACAAAAAAAABAAAA=</HashCode>
       <FileName>GetCSVFile.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MYOB.EMP.Payslip.Program">
+  <Class Name="EMP.Payslip.Program">
     <Position X="8.75" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="MYOB.EMP.Payslip.ICalculateIncomeTax">
+  <Interface Name="EMP.Payslip.ICalculateIncomeTax">
     <Position X="8.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ICalculateIncomeTax.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="MYOB.EMP.Payslip.IDisplayPayslip">
+  <Interface Name="EMP.Payslip.IDisplayPayslip">
     <Position X="8.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>

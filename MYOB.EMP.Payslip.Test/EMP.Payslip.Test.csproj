@@ -35,8 +35,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MYOB.EMP.Payslip">
-      <HintPath>..\MYOB.EMP.Payslip\bin\Debug\MYOB.EMP.Payslip.exe</HintPath>
+    <Reference Include="EMP.Payslip">
+      <HintPath>..\MYOB.EMP.Payslip\bin\Debug\EMP.Payslip.exe</HintPath>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>

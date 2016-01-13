@@ -1,6 +1,6 @@
 @pushd %~dp0
 
-%windir%\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe "MYOB.EMP.Payslip.csproj"
+%windir%\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe "EMP.Payslip.csproj"
 
 @if ERRORLEVEL 1 goto end
 

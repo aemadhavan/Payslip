@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MYOB.EMP.Payslip;
+using EMP.Payslip;
 
-namespace MYOB.EMP.Payslip.Tests
+namespace EMP.Payslip.Tests
 {   
    
     [TestClass()]
@@ -14,7 +14,7 @@ namespace MYOB.EMP.Payslip.Tests
         public void GivenFileIsNotValidTest()
         {   
             //arrange         
-            objCSV.FileName = @"C:\Users\madha\Documents\Visual Studio 2015\Projects\MYOB.EMP.Payslip\MYOB.EMP.Payslip\Employee.xls";//p.ReadFile();
+            objCSV.FileName = @"C:\Users\madha\Documents\Visual Studio 2015\Projects\EMP.Payslip\EMP.Payslip\Employee.xls";//p.ReadFile();
             //act
             var result = objCSV.FileCheck();
             //assert
@@ -23,7 +23,7 @@ namespace MYOB.EMP.Payslip.Tests
         [TestMethod()]
         public void GivenFileWithoutFileNameTest()
         {
-            objCSV.FileName = @"C:\Users\madha\Documents\Visual Studio 2015\Projects\MYOB.EMP.Payslip\MYOB.EMP.Payslip\";//p.ReadFile();
+            objCSV.FileName = @"C:\Users\madha\Documents\Visual Studio 2015\Projects\EMP.Payslip\EMP.Payslip\";//p.ReadFile();
             var result = objCSV.FileCheck();
             Assert.AreEqual(false, result);
         }
@@ -38,7 +38,7 @@ namespace MYOB.EMP.Payslip.Tests
         [TestMethod()]
         public void IsGivenFileCSVTest()
         {
-            objCSV.FileName = @"C:\Users\madha\Documents\Visual Studio 2015\Projects\MYOB.EMP.Payslip\MYOB.EMP.Payslip\Employee.csv"; // p.ReadFile();
+            objCSV.FileName = @"C:\Users\madha\Documents\Visual Studio 2015\Projects\EMP.Payslip\EMP.Payslip\Employee.csv"; // p.ReadFile();
             var result = objCSV.FileCheck();
             Assert.AreEqual(true, result);
         }
