@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMP.Payslip", "MYOB.EMP.Payslip\EMP.Payslip.csproj", "{D48B41B1-326F-4E9D-A3D2-05825EF9D7A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMP.Payslip", "EMP.Payslip\EMP.Payslip.csproj", "{D48B41B1-326F-4E9D-A3D2-05825EF9D7A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMP.Payslip.Test", "MYOB.EMP.Payslip.Test\EMP.Payslip.Test.csproj", "{44C1B5D8-0BD0-45D6-AC2A-6493874B860B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMP.Payslip.Test", "EMP.Payslip.Test\EMP.Payslip.Test.csproj", "{44C1B5D8-0BD0-45D6-AC2A-6493874B860B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
